@@ -1,16 +1,18 @@
 body{
     margin: 0px;
-    font-family: "SoDo Sans SemiBold", Helvetica, Arial, sans-serif; 
+    font-family: SoDo Sans, Helvetica, Arial, sans-serif; 
 }
 .navbar{
     padding: 20px;
+    font: bold;
     font-size: 14px;
+    letter-spacing: 1.4px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.24);
--webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.24);
--moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.24);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.20);
+-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.20);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.20);
 }
 .navbar-left svg{
     width: 50px;
@@ -23,7 +25,7 @@ body{
 }
 .navbar-left div{
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
 }
 .navbar-left div:hover{
     color: #00754a;
@@ -32,7 +34,7 @@ body{
 .navbar-right > *{
     margin: 10px;
 }
-.localizar-tienda{
+.find-a-store{
     font-size: 16px;
     display: flex;
     align-items: center;
@@ -54,6 +56,67 @@ body{
     background-color: rgba(0, 0, 0, 0.7);
 }
 .sign-in:hover, 
-.localizar-tienda:hover{
+.find-a-store:hover{
     opacity: .8;
+}
+.product img{
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.product{
+    display: flex;
+}
+.product-left,
+.product-right{
+    max-width: 50%;
+    width: 50%;
+}
+.product-right{
+    padding: 16px 32px 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-inner{
+    margin-left: 38.08px;
+    margin-right: 38.08px;
+}
+h2{
+    width: 100%;
+    font-size: calc(1.0875rem + 1.05vw);
+    font-weight: 700;
+    text-align: center;
+    color: #d1d1aa;
+    margin: auto;
+}
+.product-button-description{
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+p{
+    width: 100%;
+    font-size: calc(1.0188rem + .2256vw);
+    font-weight: 400;
+    text-align: center;
+    line-height: 32.3702px;
+    color: #d1d1aa;
+    margin-bottom: 16px;
+}
+.product-button{
+    border: 1px solid #d1d1aa;
+    font-size: 1rem;
+    font-weight: 600;
+    max-width: max-content;
+    padding: 7px 16px 7px 16px;
+    border-radius: 50px;
+    text-align: center;
+    margin: auto;
+}
+.product-button-discover-more{
+    color: #d1d1aa;
+}
+.product-button-see-more{
+    color: #32462f;
+    border-color: #32462f;
 }
