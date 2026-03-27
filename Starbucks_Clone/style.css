@@ -189,7 +189,7 @@ ul {
     margin: 0px;
     padding: 0px;
 }
-.footer {
+footer {
     padding: 20px 0px 20px 0px;
     box-shadow: 0px -3px 3px 0px rgba(0,0,0,0.1);
     -webkit-box-shadow: 0px -3px 3px 0px rgba(0,0,0,0.1);
@@ -201,6 +201,11 @@ ul {
     display: flex;
     margin: 20px 0px 0px 0px;
     padding: 0px 20px 0px 20px;
+    max-width: 1240px;
+}
+.footer-container-block {
+    display: flex;
+    gap: 30px;
 }
 .about-us, 
 .customer-service {
@@ -225,4 +230,8 @@ li {
 li:hover {
     color: rgba(0,0,0,0.87);
     cursor: pointer;
+}
+.footer-block-left,
+.footer-block-right {
+    margin: 0px;
 }
