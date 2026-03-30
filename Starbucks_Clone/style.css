@@ -282,7 +282,7 @@ li svg:hover {
 .legal-references li:hover {
     color: #777;
 }
-.legal-references li::after {
+.legal-references-item::after {
     content: "|";
     position: relative;
     right: -15px;
