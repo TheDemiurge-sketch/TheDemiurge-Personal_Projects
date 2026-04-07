@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'SoDoSans-BlackItalic';
+  src: url(SoDoSans-BlackItalic.woff2);
+  font-family: 'SoDoSans-Bold';
+  src: url(SoDoSans-Bold.woff2);
+  font-family: 'SoDoSans-BoldItalic';
+  src: url(SoDoSans-BoldItalic.woff2);
+  font-family: 'SoDoSans-Italic';
+  src: url(SoDoSans-Italic.woff2);
+  font-family: 'SoDoSans-Light';
+  src: url(SoDoSans-Light.woff2);
+  font-family: 'SoDoSans-LightItalic';
+  src: url(SoDoSans-LightItalic.woff2);
+  font-family: 'SoDoSans-Regular';
+  src: url(SoDoSans-Regular.woff2);
+  font-family: 'SoDoSans-SemiBold';
+  src: url(SoDoSans-SemiBold.woff2);
+  font-family: 'SoDoSans-SemiBoldItalic';
+  src: url(SoDoSans-SemiBoldItalic.woff2);
+  font-family: 'SoDoSans-Thin';
+  src: url(SoDoSans-Thin.woff2);
+  font-family: 'SoDoSans-ThinItalic';
+  src: url(SoDoSans-ThinItalic.woff2);
+  font-family: 'SoDoSans-Black';
+  src: url(SoDoSans-Black.woff2);
+}
+* {
+  margin: 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+  font-size: 1rem;
+}
+.navbar-left svg {
+  width: 50px;
+  margin: 0px 16px 0px 0px;
+}
+.navbar-left div {
+  text-transform: uppercase;
+  font-family: 'SodoSans-Bold', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.navbar-left div:hover {
+  color: #008248;
+  cursor: pointer;
+}
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+.navbar-left > *,
+.navbar-right > * {
+  margin: 10px;
+}
+i {
+  font-size: 15pt;
+  margin: 0rem 0.5rem 0rem 0rem;
+}
+.find-a-store {
+  display: flex;
+  padding: 0rem 1rem 0rem 0rem;
+  text-transform: uppercase;
+  font-family: 'SodoSans-Thin', Arial, Helvetica, sans-serif;
+  align-items: center;
+  font-size: 10pt;
+  font-weight: 700;
+}
+.sign-in,
+.join-now {
+  padding: 6px 12px 6px 12px;
+  font-family: 'SodoSans-Thin', Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-weight: 700;
+  border: 1px solid #000;
+  border-radius: 35px;
+}
+.join-now {
+  background-color: #000;
+  color: #fff;
+}
+.sign-in:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+  transition-duration: all 0.3s;
+  cursor: pointer;
+}
+.find-a-store:hover,
+.join-now:hover {
+  opacity: 0.8;
+  transition-duration: all 0.3s;
+  cursor: pointer;
+}
